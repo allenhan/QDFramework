@@ -1,0 +1,13 @@
+package org.qd4j.qdframework;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class RouteCollection {
+
+	private HashMap<String, RouteData> routeHashMap=new HashMap<String, RouteData>();
+	
+	public static void RouteMap(RouteData routeData){
+		
+	}
+}

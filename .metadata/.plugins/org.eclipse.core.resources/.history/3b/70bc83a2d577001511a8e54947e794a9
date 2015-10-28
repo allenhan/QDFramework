@@ -1,0 +1,22 @@
+package org.qd4j.qdframework.util;
+
+public class ReflectionUtil {
+
+	public static Object newInstatnce(Class<?> cls)
+	{
+		Object object=null;
+		try {
+			object= cls.newInstance();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return object;
+	}
+	
+	public static Object createInsance(String className){
+	   Class<?> cls=ClassUtil.loadClass(className, false);
+	   return newInstatnce(cls);
+	}
+	
+	
+}

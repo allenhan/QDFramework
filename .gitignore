@@ -1,0 +1,38 @@
+/ws/*
+/target/*
+/bin/*
+/*/target/*
+/*/bin/*
+/*/.*
+.*
+/*.bat
+!.travis.yml
+*.iml
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ 
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+ 
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+# build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+*.st
+
+hermes-portal/data/elasticsearch/nodes/0/node.lock
+
+hermes-metaserver/src/test/resources/MetaServerTest.xml

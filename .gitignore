@@ -32,7 +32,22 @@ bld/
 [Oo]bj/
 
 *.st
+# Maven #
+target/
 
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.metadata/
+.classpath
+.project
+Servers/
+RemoteSystemsTempFiles
+# Mac #
+.DS_Store
 hermes-portal/data/elasticsearch/nodes/0/node.lock
 
 hermes-metaserver/src/test/resources/MetaServerTest.xml
